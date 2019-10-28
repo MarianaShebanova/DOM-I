@@ -55,7 +55,7 @@ logo.setAttribute('src', siteContent["nav"]["img-src"]);
 
 //cta
 let catContent = document.querySelectorAll(".cta-text");
-catContent[0].children[0].textContent = siteContent["cta"]["h1"];
+catContent[0].children[0].innerHTML = "DOM<br> Is<br> Awesome";
 catContent[0].children[1].textContent = siteContent["cta"]["button"];
 let logoCta = document.getElementById("cta-img");
 logoCta.setAttribute('src', siteContent["cta"]["img-src"]);
